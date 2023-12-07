@@ -21,17 +21,17 @@ const Header = () => {
                   </Button>
                 </li>
                 <li className={`nav-item${getNavLinkClass("/browse-by")}`}>
-                  <Button className="nav-link" type="link" href="/">
+                  <Button className="nav-link" type="link" href="/browse-by">
                     Browse by
                   </Button>
                 </li>
                 <li className={`nav-item${getNavLinkClass("/stories")}`}>
-                  <Button className="nav-link" type="link" href="/">
+                  <Button className="nav-link" type="link" href="/stories">
                     Stories
                   </Button>
                 </li>
                 <li className={`nav-item${getNavLinkClass("/agents")}`}>
-                  <Button className="nav-link" type="link" href="/">
+                  <Button className="nav-link" type="link" href="/agents">
                     Agents
                   </Button>
                 </li>
